@@ -1,0 +1,21 @@
+baseURL : 'http://basildoesstuff.github.io/'
+languageCode : 'en-us'
+title : "basil's blog"
+theme : 'hugo-PaperMod' 
+
+menu:
+    main:
+        - identifier: Categories
+          name: Categories
+          url: /Categories/
+          weight: 10
+
+        - identifier: Tags
+          name: Tags
+          url: /Tags/
+          weight: 10
+
+        - identifier: Archives
+          name: Archives
+          url: /Archives/
+          weight: 10
