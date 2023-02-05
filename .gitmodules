@@ -1,0 +1,4 @@
+[submodule "basildoesstuffblog/public"]
+	path = basildoesstuffblog/public
+	url = https://github.com/basildoesstuff/basildoesstuff.github.io.git
+	branch = main
