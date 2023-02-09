@@ -1,21 +1,90 @@
 baseURL : 'http://basildoesstuff.github.io/'
 languageCode : 'en-us'
-title : "basil's blog"
+title : "@basildoesstuff"
 theme : 'hugo-PaperMod' 
 
-menu:
-    main:
-        - identifier: Categories
-          name: Categories
-          url: /Categories/
-          weight: 10
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
 
-        - identifier: Tags
-          name: Tags
-          url: /Tags/
-          weight: 10
+googleAnalytics: UA-123-45
 
-        - identifier: Archives
-          name: Archives
-          url: /Archives/
-          weight: 10
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Basil Sunny Alukka
+  description: "Hi 🙋‍♂️, I am Basil Sunny Alukka currently working as a junior java developer in TCS with 1.5 year of experience.This my blog to share my experience and learning as a software developer"
+  keywords: [Blog, java, spring boot]
+  author: Basil Sunny Alukka
+  # author: ["Me", "You"] # multiple authors
+  3images: ["<link or path of image for  , twitter-cards>"]
+  #DateFormat: "January 20, 2023"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  label:
+    text: "Basil Sunny Alukka "
+    icon: "img/wojack.jpg"
+    iconHeight: 35
+
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: "Welcome!😀"
+    subtitle: "Hi! I am Basil, currently working as a junior java developer in TCS with 1.5 year of experience.This my blog to share my experience and learning as a software developer"
+    imageUrl: "img/dp.jpeg"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: "Basil Sunny Alukka"
+    buttons:
+      - name: Blogs
+        url: blogs
+#     - name: Projects
+#       url: projects
+  homeInfoParams:
+    Title: "Welcome! \U0001F44B"
+    Content: "Hi! I am Basil, currently working as a junior java developer in TCS with 1.5 year of experience.This my blog to share my experience and learning as a software developer"
+
+
+  socialIcons:
+    - name: linkedin
+      url: "https://www.linkedin.com/in/basil-sunny-alukka-371a521a6/"
+    - name: github
+      url: "https://github.com/basildoesstuff"
+
+ 
+
+#    main:
+#          - identifier: Categories
+#            name: Categories
+#            url: /Categories/
+#            weight: 1
+  
+#          - identifier: Tags
+#            name: Tags
+#            url: /Tags/
+#            weight: 2
+ 
+#          - identifier: Archives
+#            name: Archives
+#            url: /Archives/
+#            weight: 3

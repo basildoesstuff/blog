@@ -2,6 +2,8 @@
 title: "How to setup your blog free of cost with hugo"
 date: 2023-02-02T21:30:07+05:30
 draft: false
+tags : ["hugo","blog"]
+categories : ["tech"]
 ---
 Just want to give a brief gist of how I made the website.I use github pages for hosting and used hugo to generate webpages from mark down file.You can also use other hosting sites like netlify but I just did want to pay for a domain name currently or have netlify in my url. So decided settled with the `github.io` url. To host a site you need to create a repository in github with the name `"username".github.io`. eg. if your github username is `basildoesstuff`you should create a repository named `basildoesstuff.github.io` 
 
@@ -45,5 +47,9 @@ menu:
          url: /Archives/
          weight: 10
 ```
-
-
+To generate the html once you are done with the markdown changes is to run the following command
+```
+hugo -t "theme-name"
+```
+where theme name is the name of the repo that you cloned in the themes directory.
+The html and static assets will be generated in the public directory and pushing the public
